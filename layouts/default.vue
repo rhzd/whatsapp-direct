@@ -17,10 +17,6 @@ export default {
 </script>
 
 <style>
-html {
-  min-height: calc(100% + env(safe-area-inset-top));
-  margin: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-}
 html, body {
   overflow-x: hidden;
 }
