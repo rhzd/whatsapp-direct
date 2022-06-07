@@ -1,6 +1,6 @@
 <template>
   <div>
-    <lottie :width="200" :height="200" :options="lottieOptions" v-on:animCreated="handleAnimation" />
+    <lottie :width="230" :height="230" :options="lottieOptions" v-on:animCreated="handleAnimation" />
   </div>
 </template>
 
