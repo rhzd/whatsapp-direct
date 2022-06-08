@@ -53,8 +53,9 @@ export default {
   methods: {
     sendMessage() {
       if (this.phoneNumber !== "") {
+        let backupRoute = `https://api.whatsapp.com/send?phone=${this.selectedCountry.number.replace("+", "")}${this.phoneNumber}`
         let finalRoute = `https://wa.me/${this.selectedCountry.number}${this.phoneNumber}`;
-        window.open(finalRoute, "_blank");
+        window.open(backupRoute, "_blank");
       } else {
         alert("Please insert phone number");
       }
